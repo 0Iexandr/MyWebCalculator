@@ -1,4 +1,50 @@
-.all-buttons {
-    display: grid;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.calc{
+    margin-top: 5rem;
+    background-color: black;
+}
+
+.calc-buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+hr{
+    margin:auto;
+    border-color: rgba(255, 255, 255, 0.178);
+    width: 90%;
+}
+
+.calc-field{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 5rem;
+    font-family: sans-serif;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+button{
+    font-size: 2.5rem;
+    color: white;
+    border: none;
+    background-color: black;
+    padding: 1.5rem;
+    align-content: center;
+}
+
+.orange-buttons{
+    color: rgb(255, 102, 0);
+    font-size: 2rem;
+}
+
+.equal-button{
+    background-color: rgb(255, 102, 0);
 }
